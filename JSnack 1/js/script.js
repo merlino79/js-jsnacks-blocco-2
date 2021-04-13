@@ -18,8 +18,9 @@ for (var i = 0; i < 5; i++) {
 
     console.log("il risultato è " + somma);
 
-    var contenutoPrecedente = document.getElementById('testo').innerHTML;
-    document.getElementById('testo').innerHTML = contenutoPrecedente + somma;
+    var sommaTot = document.getElementById('testo').innerHTML;
+    document.getElementById('testo').innerHTML = "il risultato è " +
+        somma;
 
 
 
