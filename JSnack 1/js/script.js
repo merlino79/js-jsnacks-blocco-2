@@ -8,13 +8,16 @@
 
 //ciclo for
 
-var somma = 0;
 
-for (var i = 0; somma < 5; i++) {
+
+for (var i = 0; i < 5; i++) {
     numeri = parseInt(prompt("inserisci i numeri"));
-    somma += numeri;
+
 
     console.log(numeri);
+    var sommaTot = numeri + numeri;
+
+    console.log(sommaTot);
 
 
 
