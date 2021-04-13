@@ -20,15 +20,27 @@ for (var i = 0; i < 5; i++) {
 
     var sommaTot = document.getElementById('testo').innerHTML;
     document.getElementById('testo').innerHTML = "il risultato è " +
-        somma;
-
-
-
-
-
-
-
-
-
+        somma + " a colazioneeeeeeee";
 
 }
+
+
+
+//ciclo while
+
+var counter = 0;
+var contA = 0;
+
+while (counter < 5) {
+    var numA = parseInt(prompt("inserisci i numeri"))
+    console.log(numA);
+    contA += numA;
+    counter++;
+}
+
+console.log(" il risultato è " +
+    contA);
+
+
+var sommaTot2 = document.getElementById("testo-2").innerHTML;
+document.getElementById("testo-2").innerHTML = "il secondo risultato è " + contA;
