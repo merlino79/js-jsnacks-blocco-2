@@ -14,13 +14,17 @@ var numeri = parseInt(prompt("inserisci un  numero"));
 
 
 var num = numeri;
-if (num % 2) {
-    console.log("numero pari");
+if (!(num % 2)) {
+    console.log("il numero pari");
+    //    var msgUscita = document.getElementById("testo").innerHTML;
+    //     msgUscita = "il nunmero è pari" 
+    document.getElementById("testo").innerHTML = "il numero è pari "
 
 
 
 } else {
-    console.log("no");
+    console.log("il numero è dispari");
+    document.getElementById("testo").innerHTML = "il numero è dispari "
 }
 
 
